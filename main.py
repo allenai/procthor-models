@@ -9,4 +9,4 @@ def load_model(model: str) -> str:
     if model not in models:
         raise ValueError(f"Model ({model}) not found in {models.keys()}")
 
-    return os.path.join(os.path.dirname(__file__), models[model])
+    return os.path.abspath(models[model])
