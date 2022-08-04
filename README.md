@@ -1,6 +1,6 @@
 # ProcTHOR Models
 
-Model weights for ProcTHOR experiments.
+Model weights for ProcTHOR experiments. The full list of models is available in [models.json](https://github.com/allenai/procthor-models/blob/main/models.json).
 
 ## Example
 
