@@ -7,5 +7,8 @@ Model weights for ProcTHOR experiments. The full list of models is available in 
 To load the models, use the prior package:
 ```python
 import prior
-prior.load_model(project="procthor-models", model="object-nav-pretraining")
+model_path = prior.load_model(project="procthor-models", model="object-nav-pretraining")
+
+import torch
+torch.load(model_path)
 ```
