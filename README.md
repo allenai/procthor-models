@@ -12,3 +12,5 @@ model_path = prior.load_model(project="procthor-models", model="object-nav-pretr
 import torch
 torch.load(model_path)
 ```
+
+More information about how to use them will be available soon!
