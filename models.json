@@ -3,5 +3,6 @@
   "100-house-ablation": "scale_ablation/exp_100-houses__stage_00__steps_000117661834.pt",
   "1000-house-ablation": "scale_ablation/exp_1000-houses__stage_02__steps_000160070274.pt",
   "10k-house-ablation": "scale_ablation/exp_10k-houses__stage_02__steps_000195225491.pt",
-  "object-nav-pretraining": "pretraining/exp_ObjectNav-PreTraining__stage_02__steps_000420536115.pt"
+  "object-nav-pretraining": "pretraining/exp_ObjectNav-PreTraining__stage_02__steps_000420536115.pt",
+  "habitat-baseline-reorder-objects": "pretraining/exp_ObjectNav-Habitat-HM3D-PrevActions-RGB-ClipResNet50GRU-DDPPO-IncRollouts-lr0.0001__stage_02__steps_000195181170.pt"
 }
