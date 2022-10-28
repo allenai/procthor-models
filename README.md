@@ -14,3 +14,21 @@ torch.load(model_path)
 ```
 
 More information about how to use them will be available soon!
+
+## Models
+
+Habitat Baseline
+
+> **Warning**
+> For the Habitat baseline, the order of the objects for the `GoalObjectTypeThorSensor` is not sorted (as it is in ProcTHOR), and is as follows:
+
+```
+{
+    "Chair": 0,
+    "Bed": 1,
+    "HousePlant": 2,
+    "Toilet": 3,
+    "Television": 4,
+    "Sofa": 5,
+}
+```
